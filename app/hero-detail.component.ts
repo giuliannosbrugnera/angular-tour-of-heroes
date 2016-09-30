@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {Hero} from "./hero";
 
 @Component({
     /* selector name that identifies this component's element */
@@ -17,4 +18,5 @@ import {Component, Input} from '@angular/core';
 
 /* export the class to make it available to other components */
 export class HeroDetailComponent {
+    hero: Hero;
 }
